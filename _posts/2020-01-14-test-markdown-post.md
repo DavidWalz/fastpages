@@ -94,10 +94,17 @@ key: value
 
 {% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
 
+## Citations
+In {% cite signaltrain %} the authors showed this. 
+In {% cite billy_signaltrain2 %} the authors showed that.
+
+Get all citations
+{% bibliography --cited %}
 
 ## Footnotes
 
 
 
 [^1]: This is the footnote.
+
 
