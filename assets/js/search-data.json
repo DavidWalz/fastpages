@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Test plotting with matplotlib",
-            "content": "import numpy as np import matplotlib.pyplot as plt x = np.linspace(0, 10, 100) y = np.sin(x) . def plot(): fig, ax = plt.subplots(1) ax.plot(x, y) plot() . &lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt; def plot(): fig, ax = plt.subplots(1) ax.plot(x, y) return fig plot() . &lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt; &lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt; plt.plot(x, y) . [&lt;matplotlib.lines.Line2D at 0x1362bd90dc8&gt;] . &lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt; plt.plot(x, y); . &lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt;",
+            "content": "import numpy as np import matplotlib.pyplot as plt x = np.linspace(0, 10, 100) y = np.sin(x) . plt.get_backend() . &#39;module://ipykernel.pylab.backend_inline&#39; . fig, ax = plt.subplots(figsize=(20, 5)) ax.plot(x, y) . [&lt;matplotlib.lines.Line2D at 0x1a25b6ebfc8&gt;] . &lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot;&gt;",
             "url": "https://davidwalz.github.io/fastpages/2020/07/04/plotting.html",
             "relUrl": "/2020/07/04/plotting.html",
             "date": " • Jul 4, 2020"
